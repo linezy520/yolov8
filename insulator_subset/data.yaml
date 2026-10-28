@@ -1,0 +1,7 @@
+# 100-image stratified subset of the degraded insulator defect dataset.
+# Paths are relative to this file.
+train: train/images
+val: valid/images
+
+nc: 4
+names: ['Broken', 'Flashover damage', 'No issues', 'String']
