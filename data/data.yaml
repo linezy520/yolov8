@@ -1,0 +1,8 @@
+# Dataset configuration for the degraded insulator defect dataset.
+# Place the downloaded dataset under ./dataset (see README).
+# Paths are relative to this file, so no absolute paths are needed.
+train: ../dataset/train/images
+val: ../dataset/valid/images
+
+nc: 4
+names: ['Broken', 'Flashover damage', 'No issues', 'String']
